@@ -35,13 +35,12 @@ public class Undo {
 
     public void listOrders() {
         if (orders.isEmpty()) {
-            System.out.println("There is not orders to show");
+            System.out.println("There are not orders to show");
         } else {
             for (int i = 0; i < orders.size(); i++) {
                 System.out.println((i + 1) + ". " + orders.get(i));
             }
         }
     }
-
 
 }
